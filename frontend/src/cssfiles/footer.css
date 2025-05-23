@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    color: white;
+    gap: 80px;
+    padding: 30px 50px;
+    justify-content: center;
+}
+.about{
+    width: 500px;
+}
+.about p{
+    font-size: 18px;
+}
+.footer h3{
+    font-size: 25px;
+}
+.follow a svg{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.contact-item svg {
+    font-size: 22px;
+    margin-right: 10px;
+}
+.quicklinks ul li {
+    cursor: pointer;
+}

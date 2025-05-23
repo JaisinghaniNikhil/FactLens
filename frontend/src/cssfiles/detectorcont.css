@@ -1,0 +1,153 @@
+.mydetect {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  gap: 30px;
+}
+
+.detect1 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 20px;
+}
+.detect1 textarea {
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.buttonss {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.buttonss button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  width: 100%;
+}
+#btnn1{
+  background-color: #4a90e2;
+}
+
+#btnn1:hover {
+  background-color: white;
+  color: black;
+}
+
+#btnn2{
+  background-color: #b7ccde;
+  color: black;
+}
+#btnn2:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+
+.detect2 {
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.placeholder-message {
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.verdict-content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.verdict-content h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.verdict-content h4 {
+  margin-top: 20px;
+  color: white;
+}
+
+.verdict-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.verdict-content li {
+  margin-bottom: 10px;
+}
+
+.verdict-content a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.verdict-content a:hover {
+  text-decoration: underline;
+}
+
+.history-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.history-box {
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.history-box h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

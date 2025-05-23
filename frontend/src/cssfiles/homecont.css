@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 20px;
+    padding: 20px 40px;
+}
+.imgs{
+    position: relative;
+    
+}
+img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+#img1{
+    position: relative;
+    z-index: 1;
+}
+#img2{
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    top: 45px;
+    left: 160px;
+}
+.dtext{
+    
+    color: white;
+    margin-top: -50px;
+    
+}
+.dtext h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.dtext label{
+    font-size: 20px;
+    padding-right: 30px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.animated-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #fff;
+    width: 0;
+    animation: typing 3s steps(30, end) 1s forwards, blink-caret 0.7s step-end infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking cursor */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
